@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "LogIn";
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogIn</title>
+    <style>
+        /*.login{
+            width :100%;
+            height:40vh;
+            background-color:rgb(10,60,70);
+            padding:30px;
+            margin: 100px auto;
+        }
+        .login>form{
+            width:100%;
+            height:100%;
+            display:flex;
+            justify-content : space-around;
+        }
+        .login>form>*{
+            border:1px solid red;
+        }
+        .login>form>label{
+            width:10%;
+        }
+        .login>form>input{
+            width:80%;
+        }*/
+    </style>
+</head>
+<body>
+    <section class="login">
+        <form action="Process" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" name="username" />
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password" />
+            <br>
+            <input type="submit" value="LogIn" />
+        </form>
+    </section>
+</body>
+</html>
